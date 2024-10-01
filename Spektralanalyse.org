@@ -1,0 +1,196 @@
+#+title: Spektralanalyse
+#+subtitle: Astronomi C & Fysik B
+#+author: Jacob Debel
+#+date: 
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+REVEAL_TITLE_SLIDE: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ./img/SDSS.png 
+#+reveal_title_slide_background_position: bottom 20px center
+#+reveal_title_slide_background_size: 30%
+#+reveal_extra_options: slideNumber:"c/t",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* Simpel atomfysik
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+Emission
+[[file:img/emission_hvid.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+Absorption
+[[file:img/absorption_hvid.png]]
+#+reveal_html: </div>
+
+* Spektra
+
+#+attr_html: :width 600px
+[[file:img/2020-10-28_11-22-12_oDIES.jpg]]
+
+* Fingeraftryk
+#+attr_html: :width 800px
+[[file:img/periodisk_system_spektra.jpg]]
+
+
+* Sortlegemestråling
+#+begin_export html
+<div style="margin:0 auto; width: 600px; height: 400px;"><a href="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_en.html" style="text-decoration: none;"><img src="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum-600.png" alt="Blackbody Spectrum" style="border: none;" width="600" height="400"/></a></div>
+#+end_export
+
+** Sortlegemestråling
+#+attr_html: width: 800px
+[[file:img/sortlegeme.png]]
+
+
+** Spektrallinjer + sortlegemestråling
+| [[file:img/2020-10-28_11-22-12_oDIES.jpg]] | +| [[file:img/sortlegeme.png]] |
+
+** Spektrallinjer + sortlegemestråling
+[[file:img/sortlegeme_absorption.jpg]]
+
+#+reveal: split
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+begin_quote
+Hvorfor ser man mest absorptionslinjer fra stjerner?
+#+end_quote
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+[[file:img/2020-10-26_22-02-28_17437647-3d-man-thinking-with-red-question-marks-above-his-head-over-white-background.jpg]]
+#+reveal_html: </div>
+
+#+reveal: split
+#+attr_html: :width 700px
+[[file:img/star_absorption.png]]
+- Fordi lyset skal ud gennen stjernens (kolde) atmosfære.
+
+* Men der er mere endnu
+
+* Dopplereffekten
+#+begin_export html
+<iframe width="600" height="400" src="https://www.youtube.com/embed/h4OnBYrbCjY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+** Rød- og blåforskydning
+#+attr_html: :width 700px
+[[file:img/forskydning.png]]
+
+#+reveal: split
+#+attr_html: :width 600px
+[[file:img/2020-10-28_13-01-57_spec_sun_arcturus.gif]]
+
+#+attr_reveal: :frag (appear)
+- Stjernen Arcturus bevæger sig væk fra os, fordi spektrallinjerne er rødforskudte!
+
+** Spektralinjeudtværing
+#+reveal_html: <div style="font-size: 60%;">
+Billederne nedenfor viser den samme absorptionslinje for brint men for tre forskellige stjerner. Spektrallinjeudtværing kan skyldes mange forskellige faktorer så som:
+
+- Temperatur (Dopplerudtværing)
+- Stjernerotation
+- Tryk
+
+[[./img/brint_udtvaering.png]]
+
+- Hvilken stjerne er varm, middelvarm og kold?
+** Dopplerudtværing
+#+attr_html: :width 700px
+[[file:img/brint_udtvaering_2.png]]
+
+#+attr_reveal: :frag (appear)
+- Hvorfor skaber roterende og/eller varme stjerner bredere spektrallinjer?
+
+** Dopplerudtværing
+#+reveal_html: <div style="font-size: 60%;">
+
+- Atomerne i en gas bevæger sig rundt med forskellige hastigheder og i forskellige retninger.
+- Nogle atomer bevæger sig i mod betragteren og andre væk. Derfor bliver nogle af lysbølgende henholdsvis blå- og rødforskydning. Dette udtværer spektrallinjen.
+- I en varm gas har atomerne mere energi end i en kold gas. Derfor er Dopplerudtværingen tydeligere for varme stjerner kontra kolde stjerner.
+
+[[./img/brint_udtvaering_2.png]]
+  
+** Rotationshastighed
+
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% 40%;">
+#+reveal_html: <div>
+- Stjerner er /ikke/ statiske objekter på nattehimlen.
+- De består af en flydende masse af gas og plasma, som roterer om en fælles akse. Solen roterer en omgang på 24.5 jorddage.
+- Når vi modtager et spektrum fra en fjern stjerne, er lyset samlet fra hele stjernens skive, og ikke kun fra et enkelt punkt.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/rotating_star.gif]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+** Rotationshastighed
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% 40%;">
+#+reveal_html: <div>
+- Dette betyder, at dele af den fjerne stjerne bevæger sig i mod os og andre dele væk fra os.
+- den del, som bevæger sig i mod os er blåforskudt.
+- den del, som bevæger sig i væk fra os er rødforskudt.
+- Nettoresultatet er, at stjernens spektrallinjer udtværes, eller bredes ud pga af rotation.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/rotating_star.gif]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+* Spektralklasser
+*O*​h *B*​e *A* *F*​ine *G*​irl *K*​iss *M*​e!
+
+#+attr_html: :width 100%
+[[./img/spektralklasser.png]]
+
+#+reveal: split
+| Spektralklasse | Fremtrædende absorptionslinjer  |
+|----------------+---------------------------------|
+| O              | He+,He,H, He, H                 |
+| B              | He,H                            |
+| A              | H(stærkest),ioniserede metaller |
+| F              | Ioniserede metaller             |
+| G              | Ioniserede og neutrale metaller |
+| K              | Neutrale metaller               |
+| M              | Neutrale atomer, TiO            |
+* Opsummering
+#+reveal_html: <div style="font-size: 60%;">
+|file:img/hot_cool.png | file:img/stars.jpg|
+- Form på sortlegemestråling (Varm vs kold)
+- Se efter obsorptionslinjer for bestemte grundstoffer
+- (Rød og blåforskydning)
+- Bredde af absorptionslinjer (Varm vs kold)
+- Tydelige absorptionslinjer for brint f.eks.
+
+  
+* Sammenlign spektre
+#+reveal_html: <div style="font-size: 50%;">
+- 9 spektre af kendte stjerner. Læg dem op i spektralklasserækkefølge. Sammenlign dem.
+- Læg mærke til bredde  af udvalgte spektrallinjer.
+- Hydrogenlinje ved 6563 Å er god at studere.
+- Varme stjerner har bredere absorptionslinjer end kolde.
+- Kolde stjerner har mere "ujævne" spektre ift. varme.
+- Nogle spektrallinjer optræder hos nogle stjerner og ikke andre.
+
+[[file:img/spektrum2.png]]  
+
+** 2 ukendte stjerner
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_html: :width 600px
+[[file:img/Ukendt_stjerne_1.png]] 
+
+#+attr_html: :width 600px
+[[file:img/Ukendt_stjerne_2.png]] 
+
+- Giv jeres bedste bud på disse to stjerners spektralklasse.
+
+** Og svaret er
+
+#+attr_html: :width 700px
+[[file:img/Ukendte_stjerner_underviser.pdf-1.png]]
+
+#+attr_html: :width 700px
+[[file:img/Ukendte_stjerner_underviser.pdf-2.png]]
+
